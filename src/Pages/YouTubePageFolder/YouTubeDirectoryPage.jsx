@@ -3,12 +3,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./YouTubeDirectoryPage.css";
  
-
-import { GiWoodCabin } from "react-icons/gi";
+import Cross from "/Funeral350x500Transparency.webp"
  
-const handleGoBack = () => {
-  window.history.back();
-};
+ 
+ 
 const YouTubeDirectoryPage = () => {
   return (
     <div>
@@ -61,18 +59,20 @@ const YouTubeDirectoryPage = () => {
         </div>
       </a>
       </section>
-      <div className="fixed bottom-10 left-4"></div>
-      <div className="fixed left-[4rem] top-4">
+      
+      <div className="fixed right-[9rem] top-24 ">
         <Link to={"/"} className="">
-          <button className="animateHomePageButton relative top-20 z-50 m-auto flex">
-            <div className="absolute bottom-0 left-1/2 w-fit -translate-x-1/2">
-              <span className="absolute bottom-[1.2rem] left-1/2 w-fit -translate-x-1/2 text-white">
-                <GiWoodCabin size={30} />
+          <button className="animateHomePageButton relative   z-50 m-auto flex">
+            <div className="absolute ">
+              <span className="absolute  text-white">
+                <img src={Cross} alt="Home" className=" scale-[200%] md:scale-[400%]" />
+                 <span className="font-Itim-Regular text-transparent ">Home</span>
               </span>
-              <span className="font-Itim-Regular">Home</span>
+             
             </div>
           </button>
         </Link>
+     
       </div>
     </div>
   );
