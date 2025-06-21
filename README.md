@@ -2,9 +2,9 @@
 
 ### https://Elsa.BrainBuddys.com
 
- 
+ * font-LibreBaskerville-Italic
 
-![Elsa Rodriquez](public/1212x808.webp)
+![Elsa Rodriquez](public/Funeral350x500Transparency.webp)
  
 
  
