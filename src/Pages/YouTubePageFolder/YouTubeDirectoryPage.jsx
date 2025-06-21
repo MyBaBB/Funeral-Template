@@ -48,11 +48,12 @@ const YouTubeDirectoryPage = () => {
      <a href="https://mybabb.com" className=" absolute bottom-0 left-4  ">
         <div className="copyrightWrapper-YouTube  flex h-fit w-full justify-center">
           <div className="relative m-auto mb-[1.5rem] ml-4 flex w-full justify-start">
-            <p className="copyrightText-YouTube absolute flex h-fit w-fit items-center justify-center whitespace-nowrap rounded-md bg-slate-800 p-1 text-white">
+            <p className="copyrightText-YouTube absolute flex h-fit w-fit items-center justify-center
+             whitespace-nowrap rounded-md  p-1 text-slate-400 text-opacity-75">
               <span className="">&lt;&lt;&lt;&copy;</span>
-              <span className="text-[#FF8200]"> Brett&apos;s </span>
+              <span className="text-[#ff8200] text-opacity-75"> Brett&apos;s </span>
               <span>
-                <em>9-14-2023</em>&gt;&gt;&gt;
+                <em>6-21-2025</em>&gt;&gt;&gt;
               </span>
             </p>
           </div>

@@ -10,7 +10,12 @@
 }
 
 .youTubeDirectoryPage {
-  background: radial-gradient(#3e3819 0%, black 100%);
+ background: radial-gradient(
+    circle at 90% 10%,
+    #383318,
+    rgba(0, 0, 0, 0.92) 55%,
+    #000 85%
+  );
   box-shadow: inset 0px 0px 12px 0.2px black;
 }
 
