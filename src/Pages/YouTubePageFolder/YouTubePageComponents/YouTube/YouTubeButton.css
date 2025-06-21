@@ -1,0 +1,110 @@
+.youTubeSection {
+  background: linear-gradient(#a1bdee 0%, #1e3c72 100%);
+}
+
+.youTubeButtonWrapper2:hover {
+  box-shadow: 2px 2px 4px lightskyblue;
+  border: 2px solid skyblue;
+}
+
+.dataToolTip51:hover::before,
+.dataToolTip51:hover::after {
+  --scale: 1;
+}
+.dataToolTip51:before {
+  top: 12.2rem;
+  left: 18.7rem;
+  font-weight: Bold;
+  transform: translateX(-100%) scale(var(--scale));
+  transform-origin: top center;
+  transition: ease-in 0.25s;
+  --scale: 0;
+  z-index: 3;
+}
+.dataToolTip51::after {
+  content: "";
+  font-size: 11px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  top: 9.5rem;
+  left: 4.5rem;
+  transform: translateX(-35%) scale(var(--scale));
+  transform-origin: bottom right;
+  transition: 0.3s;
+  border: 15px solid transparent;
+  border-bottom: #60ceaf 10px solid;
+  --scale: 0;
+  z-index: 1;
+}
+.dataToolTip51 {
+  top: -2px;
+}
+
+@media screen and (max-width: 640px) {
+  .dataToolTip51::before,
+  .dataToolTip51::after {
+    display: none;
+  }
+}
+.dataToolTip59 {
+  top: -2px;
+}
+.dataToolTip59:hover::before,
+.dataToolTip59:hover::after {
+  --scale: 1;
+}
+.dataToolTip59:before {
+  top: -9.2rem;
+  left: 16.7rem;
+  font-weight: Bold;
+  transform: translateX(-100%) scale(var(--scale));
+  transform-origin: bottom center;
+  transition: ease-in 0.25s;
+  --scale: 0;
+  z-index: 3;
+}
+.dataToolTip59::after {
+  content: "";
+  font-size: 11px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  top: -5.5rem;
+  left: 4.5rem;
+  transform: translateX(-35%) scale(var(--scale));
+  transform-origin: top center;
+  transition: 0.3s;
+  border: 15px solid transparent;
+  border-top: #1d8164 10px solid;
+  --scale: 0;
+  z-index: 1;
+}
+.dataToolTip59 {
+  top: -2px;
+}
+
+@media screen and (max-width: 640px) {
+  .dataToolTip59::before,
+  .dataToolTip59::after {
+    display: none;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 454px) {
+  .youTubeButtonWrapper {
+    scale: 0.8;
+    margin-top: -4rem;
+  }
+  .youTubeButtonWrapperSmall {
+    scale: 0.8;
+    margin-top: -1.2rem;
+  }
+  .youTubeButtonWrapper2 {
+   display: none;
+  }
+}
+
+

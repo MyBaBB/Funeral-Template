@@ -6,7 +6,7 @@ function App() {
     <div>
       <div className="ZenithWrapper bg-[#352e0b]">
         <Image1 className="Image1" />
-        < Body />
+        <Body />
       </div>
     </div>
   );
