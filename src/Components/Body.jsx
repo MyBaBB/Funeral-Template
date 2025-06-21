@@ -1,13 +1,17 @@
- import "./Body.css";
-
+import "./Body.css";
+import YouTubeButton2 from "../Components/YouTube/YouTubeButton2.jsx";
 const Body = () => {
   return (
-     <div className="Body  flex items-center justify-center
-                   min-h-[100px] max-h-full w-full
-                 text-white whitespace-nowrap  font-LibreBaskerville-Italic text-base sm:text-3xl lg:text-4xl "> 
-        Elsa Rodriguez
+    <>
+    <div className="BodyWrapper">
+       <div className="absolute top-0 left-0">< YouTubeButton2 /> </div> 
+    <div className="Body flex max-h-full min-h-[100px] w-full items-center justify-center whitespace-nowrap font-LibreBaskerville-Italic text-base text-white sm:text-3xl lg:text-4xl">
+      Elsa Rodriguez
     </div>
-  )
-}
+    </div>
 
-export default Body
+    </>
+  );
+};
+
+export default Body;
