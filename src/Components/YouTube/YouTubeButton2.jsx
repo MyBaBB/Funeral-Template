@@ -25,7 +25,7 @@ const YouTubeButton = () => {
   }, []);
 
   return (
-    <div className="absolute right-[-11rem] top-[-2rem] z-10 m-8 scale-50">
+    <div className="absolute right-[-8rem] top-[-2rem] z-10 m-8 scale-50">
       <Link to={"/Youtube"}>
         <div
           className={`youTubeButtonWrapper1 z-20 w-fit rounded-2xl 

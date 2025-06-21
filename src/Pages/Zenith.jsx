@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <div className="ZenithWrapper bg-[#352e0b]">
-        <Image1 className="Image1" />
+        <Image1 className="Image1 mt-8" />
         <Body />
       </div>
     </div>
