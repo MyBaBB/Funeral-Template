@@ -23,8 +23,8 @@ const YouTubeDirectoryPage = () => {
           title="YouTube video player"
           src="https://www.youtube.com/embed/OiS4Pg_dOWc?loop=1&playlist=OiS4Pg_dOWc"
    
-          allowFullScreen
-          width="100%"
+          allowFullScreen                   
+          width="100%"           
           height="100%"
           />
    
