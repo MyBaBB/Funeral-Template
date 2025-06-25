@@ -25,10 +25,11 @@ const YouTubeButton = () => {
   }, []);
 
   return (
-    <div className="absolute right-[-8rem] top-[-2rem] z-10 m-8 scale-50">
+    <div className="relative flex justify-center mt-8   z-10  
+    ">
       <Link to={"/Youtube"}>
         <div
-          className={`youTubeButtonWrapper1 z-20 w-fit rounded-2xl 
+          className={`youTubeButtonWrapper1 z-20 w-fit rounded-2xl  
           border-2 border-slate-300 bg-[#692018] p-[.65rem] font-Itim-Regular
            text-4xl text-white shadow-md hover:text-blue-400 ${
              setIsPlayingMusic ? "is-playing" : ""
@@ -36,7 +37,7 @@ const YouTubeButton = () => {
           data-tool-tip="Watch the Video"
           aria-label="YouTube Video"
         >
-          <TfiYoutube size={75} />
+          <TfiYoutube size={95} />
         </div>
       </Link>
       
