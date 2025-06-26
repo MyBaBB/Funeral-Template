@@ -21,7 +21,7 @@ const YouTubeDirectoryPage = () => {
           
             <iframe
           title="YouTube video player"
-          src="https://www.youtube.com/embed/OiS4Pg_dOWc?loop=1&playlist=OiS4Pg_dOWc"
+          src="https://www.youtube.com/embed/1yVy8br0qPU?loop=1&playlist=1yVy8br0qPU"
    
           allowFullScreen                   
           width="100%"           
