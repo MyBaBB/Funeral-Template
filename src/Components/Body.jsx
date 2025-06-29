@@ -7,7 +7,7 @@ const Body = () => {
       
     <div className="Body relative flex-row max-h-full min-h-[100px] w-full items-center justify-center whitespace-nowrap
         font-LibreBaskerville-Italic text-base text-white sm:text-3xl lg:text-4xl">
-     <p> Elsa Rodriguez </p>
+     {/* <p> Elsa Rodriguez </p> */}
      < YouTubeButton2 />
 
     </div>
