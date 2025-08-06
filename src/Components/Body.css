@@ -1,0 +1,30 @@
+.ClickTheVan {
+  color: green;
+}
+.ClickTheVan {
+  position: fixed;
+  bottom: 5rem;
+  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: slideSideways 8s ease-in-out infinite;
+ 
+  z-index: 0;
+}
+
+@keyframes slideSideways {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10rem);
+  }
+
+  75% {
+    transform: translateX(10rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+  
+}

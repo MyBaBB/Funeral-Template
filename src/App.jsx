@@ -8,6 +8,7 @@ const App = () => {
     <main className="">
       <Router>
         <Routes>
+           <Route path="/*" element={<Zenith />} />
           <Route path="/" element={<Zenith />} />
           <Route path="/Youtube" element={<YouTube />} />
         </Routes>
