@@ -4,7 +4,7 @@ import ClickTheVan from "./ClickTheVan.jsx";
 const Body = () => {
   return (
     <>
-    <a href=" https://photos.app.goo.gl/kQrnzH44pHB1mXiL8">
+    <a href=" https://photos.app.goo.gl/Gin7NfyHUp7EnYiE7" target="_blank" rel="noopener noreferrer">
     <div className="BodyWrapper  w-fit">
 
 
