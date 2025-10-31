@@ -6,14 +6,14 @@ const StarWarsScroll = () => {
     <div className="relative h-screen overflow-hidden  bg-black text-[skyblue] font-bold">
       <div className="star-wars-perspective ">
         <div className="star-wars-text text-center text-xl leading-loose animate-scroll">
-          <h1 className='text-4xl text-gray-300'>Statement Regarding Family Photos and Recent Events</h1>
+          <p className='text-4xl text-gray-300'>Statement Regarding Family Photos and Recent Events</p>
           <hr  className='  border-[.2px] border-red-500 bg-transparent w-[40%] h-[.4rem] mx-auto mt-8 mb-4 '/>
 <p>
 In light of recent inheritance disputes and deeply distressing accusations of elder abuse made by certain family members, I have made the difficult decision to remove the funeral photos of Mrs. Elsa Rodriguez from this website. <span>These claims are false</span> and they have fractured our family and undermined the clear intentions expressed in her will. While two siblings (not three) continue to contest her final wishes, they have also chosen to spread misinformation that misrepresents both our family and the truth.
 </p>
  <hr  className='  border-[.2px] border-red-500 bg-transparent w-[40%] h-[.4rem] mx-auto mt-8 mb-4 '/>
 <p>
-I believe the truth will come to light, and that Mrs. Rodriguez—who was a kind, gracious, and deeply respectful woman—would never have wanted her primary caregivers to be vilified for selfish reasons. Out of respect for her legacy and the integrity of this platform, I have refrained from naming anyone directly. This website is my creation, my property, and my patent. I reserve the right to curate its content and to defend myself against falsehoods and public mis-characterizations.
+I believe the truth will come to light, and that Mrs. Rodriguez—who was a kind, gracious, and deeply respectful woman—would never have wanted her primary caregivers to be vilified for selfish reasons. Out of respect for her legacy and the integrity of this platform, I have refrained from naming anyone directly. This website is my creation, my property, my copyright under. I reserve the right to curate its content and to defend myself against falsehoods and public mis-characterizations.
 </p>
  <hr  className='  border-[.2px] border-red-500 bg-transparent w-[40%] h-[.4rem] mx-auto mt-8 mb-4 '/>
 <p>
