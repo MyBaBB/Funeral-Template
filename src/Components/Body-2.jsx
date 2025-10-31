@@ -1,5 +1,5 @@
 import "./Body.css";
-import YouTubeButton2 from "../Components/YouTube/YouTubeButton2.jsx";
+import YouTubeButton2 from "./YouTube/YouTubeButton2.jsx";
 const Body = () => {
   return (
     <>

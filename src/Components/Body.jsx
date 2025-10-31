@@ -1,10 +1,11 @@
 import "./Body.css";
 import ElsaVanImageButton from '../assets/ElsaImageButton.png' ;
 import ClickTheVan from "./ClickTheVan.jsx";
+import { Link } from "react-router-dom";
 const Body = () => {
   return (
     <>
-    <a href=" https://photos.app.goo.gl/Gin7NfyHUp7EnYiE7" target="_blank" rel="noopener noreferrer">
+    <Link to="/XList" target="_blank" rel="noopener noreferrer">
     <div className="BodyWrapper  w-fit">
 
 
@@ -22,7 +23,7 @@ const Body = () => {
           < ClickTheVan />
     </div>
     
-</a>
+</Link>
     </>
   );
 };

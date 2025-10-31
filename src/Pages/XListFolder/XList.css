@@ -1,0 +1,29 @@
+ :root { 
+    font-family:'DM_Serif_Display';
+ }
+.star-wars-perspective {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p    {
+    font-size: 2rem;
+}
+.star-wars-text {
+
+    transform-origin: bottom center;
+    animation: scroll-up 160s linear infinite;
+}
+
+@keyframes scroll-up {
+    0% {
+        transform:  translateY(59%);
+    }
+    100% {
+        transform:  translateY(-200%);
+    }
+}
