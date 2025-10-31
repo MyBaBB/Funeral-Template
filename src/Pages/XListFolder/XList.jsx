@@ -13,7 +13,7 @@ In light of recent inheritance disputes and deeply distressing accusations of el
 </p>
  <hr  className='  border-[.2px] border-red-500 bg-transparent w-[40%] h-[.4rem] mx-auto mt-8 mb-4 '/>
 <p>
-I believe the truth will come to light, and that Mrs. Rodriguez—who was a kind, gracious, and deeply respectful woman—would never have wanted her primary caregivers to be vilified for selfish reasons. Out of respect for her legacy and the integrity of this platform, I have refrained from naming anyone directly. This website is my creation, my property, my copyright under. I reserve the right to curate its content and to defend myself against falsehoods and public mis-characterizations.
+I believe the truth will come to light, and that Mrs. Rodriguez—who was a kind, gracious, and deeply respectful woman—would never have wanted her primary caregivers to be vilified for selfish reasons. Out of respect for her legacy and the integrity of this platform, I have refrained from naming anyone directly. This website is my creation, my property, my copyright under my license. I reserve the right to curate its content and to defend myself against falsehoods and public mis-characterizations.
 </p>
  <hr  className='  border-[.2px] border-red-500 bg-transparent w-[40%] h-[.4rem] mx-auto mt-8 mb-4 '/>
 <p>
