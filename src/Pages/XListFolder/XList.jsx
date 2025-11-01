@@ -4,10 +4,11 @@ import './XList.css'; // Standard CSS for perspective
 const StarWarsScroll = () => {
   return (
     <div className="relative h-screen overflow-hidden  bg-black text-[skyblue] font-bold">
+      
       <div className="star-wars-perspective ">
         <div className="star-wars-text text-center text-xl leading-loose animate-scroll">
           <p className='text-4xl text-gray-300'>Statement Regarding Family Photos and Recent Events</p>
-          <hr  className='  border-[.2px] border-red-500 bg-transparent w-[40%] h-[.4rem] mx-auto mt-8 mb-4 rounded-xl'/>
+          <hr  className='  border-[.2px] border-red-500 bg-transparent w-[40%] h-[.4rem] mx-auto mt-8 mb-4rounded-xl'/>
 <p>
 In light of recent inheritance disputes and deeply distressing accusations of elder abuse made by certain family members, I have made the difficult decision to remove the funeral photos of Mrs. Elsa Rodriguez from this website. <span>These claims are false</span> and they have fractured our family and undermined the clear intentions expressed in her will. While two siblings (not three) continue to contest her final wishes, they have also chosen to spread misinformation that misrepresents both our family and the truth.
 </p>
@@ -27,7 +28,9 @@ Once I`ve completed processing the images and respectfully removing certain indi
         </p>
         <hr  className='  border-[.2px] border-red-500 bg-transparent w-[40%] h-[.4rem] mx-auto mt-8 mb-4 rounded-xl '/>
         </div>
+       
       </div>
+       
     </div>
   );
 };
