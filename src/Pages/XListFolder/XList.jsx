@@ -1,16 +1,16 @@
  
 import './XList.css'; // Standard CSS for perspective
-
+import Elsa from '../../assets/ElsaRodriguezPhoto.png';
 const StarWarsScroll = () => {
   return (
-    <div className="relative h-screen overflow-hidden  bg-black text-[skyblue] font-bold">
+    <div className="relative h-screen   bg-black text-[skyblue] font-bold">
       
-      <div className="star-wars-perspective ">
+      <div className="star-wars-perspective relative flex  m-auto">
         <div className="star-wars-text text-center text-xl leading-loose animate-scroll">
           <p className='text-4xl text-gray-300'>Statement Regarding Family Photos and Recent Events</p>
           <hr  className='  border-[.2px] border-red-500 bg-transparent w-[40%] h-[.4rem] mx-auto mt-8 mb-4rounded-xl'/>
 <p>
-In light of recent inheritance disputes and deeply distressing accusations of elder abuse made by certain family members, I have made the difficult decision to remove the funeral photos of Mrs. Elsa Rodriguez from this website. <span>These claims are false</span> and they have fractured our family and undermined the clear intentions expressed in her will. While two siblings (not three) continue to contest her final wishes, they have also chosen to spread misinformation that misrepresents both our family and the truth.
+In light of recent inheritance disputes and deeply distressing accusations of elder abuse made by certain family members, I have made the difficult decision to remove the funeral photos of Mrs. Elsa Rodriguez from this website. <span>These claims are false</span> and they have fractured our family and undermined the clear intentions expressed to her family. While two siblings (not three) continue to contest her final wishes, they have also chosen to spread misinformation that misrepresents both our family and the truth.
 </p>
  <hr  className='  border-[.2px] border-red-500 bg-transparent w-[40%] h-[.4rem] mx-auto mt-8 mb-4 rounded-xl'/>
 <p>
@@ -27,11 +27,14 @@ You are welcome to read this message or not. But I felt it necessary to explain 
 Once I`ve completed processing the images and respectfully removing certain individuals from my database, I will re-post the funeral photos of Mrs. Elsa Rodriguez. These images were meant to honor her life and legacy—not to be clouded by the recent wave of negativity and falsehoods stirred by her own flesh and blood. By restoring these photos without the surrounding energy of conflict, I hope to reclaim the spirit of remembrance and respect that Mrs. Rodriguez truly deserved.
         </p>
         <hr  className='  border-[.2px] border-red-500 bg-transparent w-[40%] h-[.4rem] mx-auto mt-8 mb-4 rounded-xl '/>
+       <div className=' relative flex w-screen'>
+          <img src={Elsa } alt="Elsa Rodriguez" className='z-1 relative flex m-auto w-[400px]' /></div>
+      </div> 
         </div>
-       
+        
+        
       </div>
-       
-    </div>
+      
   );
 };
 
