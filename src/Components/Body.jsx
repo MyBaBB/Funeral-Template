@@ -19,7 +19,7 @@ const Body = () => {
         ">
      <img src={ElsaVanImageButton} alt="Elsa Rodriguez" width={300} height={300} className="rounded-lg m-auto z-10" />
     </div>
-          < ClickTheVan />
+            < ClickTheVan />
     </div>
     
 </a>
