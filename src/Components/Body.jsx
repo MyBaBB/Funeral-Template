@@ -24,7 +24,7 @@ const Body = () => {
         ref={audioRef}
         src="https://images.brainbuddys.com/Sound/Mamacita-song_10.mp3"
         preload="auto"
-        loop
+      
       />
 
       <div onClick={handleClick}>
