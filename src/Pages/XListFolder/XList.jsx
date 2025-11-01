@@ -3,7 +3,7 @@ import './XList.css'; // Standard CSS for perspective
 import Elsa from '../../assets/ElsaRodriguezPhoto.png';
 const StarWarsScroll = () => {
   return (
-    <div className="relative h-screen   bg-black text-[skyblue] font-bold">
+    <div className="fixed bg-black text-[skyblue] font-bold">
       
       <div className="star-wars-perspective relative flex  m-auto">
         <div className="star-wars-text text-center text-xl leading-loose animate-scroll">

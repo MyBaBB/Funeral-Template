@@ -29,7 +29,7 @@ const Body = () => {
 
       <div onClick={handleClick}>
         <Link to="/XList" target="_blank" rel="noopener noreferrer">
-          <div className="BodyWrapper w-fit">
+          <div className="BodyWrapper w-fit ">
             <div className="Body relative flex items-center justify-center w-fit m-auto">
               <img
                 src={ElsaVanImageButton}
