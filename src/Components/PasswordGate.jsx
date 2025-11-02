@@ -20,22 +20,25 @@ const PasswordGate = ({ correctPassword, children }) => {
   return (
     <>
       <div className='fixed top-0 w-screen h-[10rem]'>
-        <button className='w-full h-full bg-black opacity-90
+        <button className='w-full h-full 
           '>
         <div className='relative flex justify-center items-center h-full w-full'>
-          <div className="absolute h-fit w-fit scale-75 -bottom-10 left-0 m-auto bg-gray-700">
+          <div className="absolute h-fit w-fit scale-50 md:scale-75 -bottom-10  md:left-0 m-auto bg-gray-700
+          border-2 border-blue-200 rounded-3xl overflow-hidden">
             <form
               onSubmit={handleSubmit}
               className="bg-gray-700 p-6 rounded shadow-md w-80 text-center"
             >
-              <h2 className="text-xl font-semibold mb-4 text-white">Enter Password</h2>
+              <h2 className="text-xl font-semibold mb-4 text-blue-200 ">Enter Password</h2>
               <input
                 type="password"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyDown={(e) => e.key === 'Enter' && handleSubmit(e)}
-                className="w-full px-3 py-2 border-2 border-gray-700 rounded-2xl mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-3 py-2 border-2 border-gray-700 rounded-2xl mb-4 
+                bg-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="••••••••"
+              
               />
              
             </form>
