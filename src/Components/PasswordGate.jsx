@@ -11,7 +11,7 @@ const PasswordGate = ({ correctPassword, children }) => {
     if (input === correctPassword) {
       setAccessGranted(true);
     } else {
-      alert('Watch the Video to find the password!');
+      alert('👁️ Watch the Cool Video 👽');
     }
   };
 
