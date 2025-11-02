@@ -1,6 +1,6 @@
  
 import './XList.css'; // Standard CSS for perspective
-import Elsa from '../../assets/ElsaRodriguezPhoto.png';
+
 const StarWarsScroll = () => {
   return (
     <div className="fixed bg-black text-[skyblue] font-bold">
