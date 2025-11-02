@@ -12,7 +12,7 @@ const App = () => {
           <Route path="/*" element={<Zenith />} />
           <Route path="/" element={<Zenith />} />
            
-          <Route path="/XList" element={<XList />} />
+          {/* <Route path="/XList" element={<XList />} /> */}
         </Routes>
       </Router>
     </main>
