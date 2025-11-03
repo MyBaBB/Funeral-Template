@@ -28,7 +28,7 @@ Once I`ve completed processing the images and respectfully removing certain indi
         </p>
         <hr  className='  border-[.2px] border-red-500 bg-transparent w-[40%] h-[.4rem] mx-auto mt-8 mb-4 rounded-xl '/>
        <div className=' relative flex w-screen'>
-          <img src={Elsa } alt="Elsa Rodriguez" className='z-1 relative flex m-auto w-[400px]' /></div>
+          <img src={Elsa} alt="Elsa Rodriguez" className='z-1 relative flex m-auto w-[400px]' /></div>
       </div> 
         </div>
         
