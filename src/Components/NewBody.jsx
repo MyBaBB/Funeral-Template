@@ -1,21 +1,11 @@
-import PasswordGate from "./PasswordGate"
-
- 
+ import Smiley from "/Smiley.jpg";
 
 const NewBody = () => {
   return (
+    <div className="fixed top-0 left-0 h-full w-screen overflow-hidden bg-green-500">
     <div>
-     
-       <div className="BodyWrapper2 w-fit ">
-            <div className="Body2 relative flex items-center justify-center w-fit m-auto"> 
-              < PasswordGate correctPassword="Velvet_Cipher" />
-    <video   controls className="w-full h-auto">
-      <source src="https://images.brainbuddys.com/Videos/zzz.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+        <img src={Smiley} alt="Smiley" className="h-full w-full object-cover " />
     </div>
-    </div>
-     
    </div>
   )
 }
