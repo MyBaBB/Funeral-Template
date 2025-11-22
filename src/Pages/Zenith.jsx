@@ -10,7 +10,7 @@ function App() {
        <span className="font-Itim-Regular absolute top-[2rem] left-[10rem] -rotate-12 text-[lime] text-4xl">
         Safe Zone
         <span>
-          <IoMdCheckmarkCircleOutline size={48} color="lime" className="inline-block ml-4" />
+          <IoMdCheckmarkCircleOutline size={49} color="lime" className="inline-block ml-4" />
         </span>
         
         </span>
